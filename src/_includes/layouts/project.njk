@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+<button type="button" class="hero" data-full="{{ hero }}" data-cap="{{ heroCap }}">
+  <img src="{{ hero }}" alt="{{ heroCap }}">
+</button>
+
+<div class="proj-body">
+  <div class="prose">
+{{ content | safe }}
+  </div>
+  <dl class="meta">
+{%- for m in meta %}
+    <dt>{{ m.key }}</dt><dd>{{ m.value | safe }}</dd>
+{%- endfor %}
+  </dl>
+</div>
+
+<div class="gal">
+{%- for g in gallery %}
+  <figure class="{{ g.cls }}" data-full="{{ g.src }}" data-cap="{{ g.cap }}">
+    <img src="{{ g.src }}" alt="{{ g.cap }}" loading="lazy">
+    <figcaption>{{ g.thumb }}</figcaption>
+  </figure>
+{%- endfor %}
+</div>

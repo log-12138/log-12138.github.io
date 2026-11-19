@@ -1,0 +1,12 @@
+<header class="bar">
+  <div class="bar-in">
+    <a class="brand" href="/">罗子成 <span class="en">Zicheng Luo</span></a>
+    <nav class="nav" aria-label="站点导航">
+      <a href="/about/"{% if active == "about" %} class="active"{% endif %}><span class="n">01</span>关于</a>
+      <a href="/works/"{% if active == "works" %} class="active"{% endif %}><span class="n">02</span>作品</a>
+      <a href="/experience/"{% if active == "experience" %} class="active"{% endif %}><span class="n">03</span>经历</a>
+      <a href="/awards/"{% if active == "awards" %} class="active"{% endif %}><span class="n">04</span>荣誉</a>
+      <a href="/contact/"{% if active == "contact" %} class="active"{% endif %}><span class="n">05</span>联系</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,15 @@
+{
+  "name": "luo-zicheng-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "罗子成 2026 建筑作品集 — Eleventy",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "clean": "node -e \"require('fs').rmSync('_site',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.8"
+  }
+}

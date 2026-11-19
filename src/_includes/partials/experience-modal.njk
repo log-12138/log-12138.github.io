@@ -1,0 +1,47 @@
+<div class="exp-modal" id="expModal" role="dialog" aria-modal="true" aria-label="经历照片">
+<div class="exp-modal-in">
+<button class="lb-close" id="expClose" aria-label="关闭">✕</button>
+<p class="k" id="expK"></p>
+<h3 id="expT"></h3>
+<div class="exp-grid" id="expG"></div>
+</div>
+</div>
+<script>
+(function () {
+var GROUPS = {"g2": {"t": "东南大学平安东南学生社团", "k": "2023–2025 · 宣传部部长", "p": [["stu-04", "校园安全月海报（设计）"], ["stu-05", "用电安全海报（设计）"]]}, "g4": {"t": "东南大学建筑学院 011233 班", "k": "2025–2026 · 班长", "p": [["stu-01", "011233 班「磐石计划」· 中大院前"], ["stu-02", "011233 班「磐石计划」· 梅庵前"]]}, "g5": {"t": "东南大学 星筑黔途 社会实践项目", "k": "2025–2026 · 学生总负责人", "p": [["prac-01", "社会实践 · 实践场地"], ["prac-02", "「明远 · 乐行」与小学生共做模型"], ["prac-03", "梅庵书院前合影"]]}, "g6": {"t": "志愿服务 · 三星志愿者", "k": "2025 · 累计 265 小时", "p": [["vol-01", "浙江省高校招生公益巡回咨询会（金华专场）· 东南大学展位"], ["vol-02", "高校招生宣传咨询现场"], ["vol-03", "回访宣讲 · 讲台"], ["vol-04", "宣讲会现场"]]}, "g7": {"t": "南京建邺区河西中央商务区管委会", "k": "2026 暑期 · 征途计划实习", "p": [["work-01", "南京宪法公园 · 征途计划"], ["work-02", "AI 实训营 · 作为东大代表上台发言"]]}, "g8": {"t": "电气学院合作 · 光伏出力预测与公众号", "k": "2025–2026 · 参与者", "p": [["work-03", "光伏出力预测 · 可视化页面"]]}};
+var modal = document.getElementById("expModal");
+if (!modal) return;
+var gEl = document.getElementById("expG");
+var tEl = document.getElementById("expT");
+var kEl = document.getElementById("expK");
+
+function open(g) {
+var d = GROUPS[g];
+if (!d) return;
+kEl.textContent = d.k;
+tEl.textContent = d.t;
+gEl.innerHTML = d.p.map(function (it) {
+return '<figure><img src="/imgs/exp/' + it[0] + '.jpg" alt="' + it[1] +
+'" loading="lazy"><figcaption>' + it[1] + '</figcaption></figure>';
+}).join("");
+modal.classList.add("on");
+document.body.classList.add("lb-open");
+document.body.style.overflow = "hidden";
+document.getElementById("expClose").focus();
+}
+function close() {
+modal.classList.remove("on");
+document.body.classList.remove("lb-open");
+document.body.style.overflow = "";
+}
+
+Array.prototype.forEach.call(document.querySelectorAll(".exp-btn[data-group]"), function (b) {
+b.addEventListener("click", function () { open(b.getAttribute("data-group")); });
+});
+document.getElementById("expClose").addEventListener("click", close);
+modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
+document.addEventListener("keydown", function (e) {
+if (e.key === "Escape" && modal.classList.contains("on")) close();
+});
+})();
+</script>

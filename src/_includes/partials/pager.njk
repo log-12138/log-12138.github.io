@@ -1,0 +1,7 @@
+<footer class="pager">
+  <div class="pager-in">
+    {% if prev %}<a class="prev" href="{{ prev.href }}"><span class="k">← 上一节</span><strong>{{ prev.label }}</strong></a>{% else %}<span></span>{% endif %}
+    {% if next %}<a class="next" href="{{ next.href }}"><span class="k">下一节 →</span><strong>{{ next.label }}</strong></a>{% endif %}
+  </div>
+  <div class="site-foot"><span>© 2026 罗子成 · 东南大学建筑学院</span><span>{{ source or "素材来源：个人作品集与简历 · 内容未作改写" }}</span></div>
+</footer>

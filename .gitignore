@@ -1,0 +1,12 @@
+# 依赖
+node_modules/
+
+# 构建产物（由 CI 或本地 pnpm run build 生成）
+_site/
+
+# 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
