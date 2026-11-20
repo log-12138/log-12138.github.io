@@ -40,6 +40,11 @@ jobs:
       - name: Build with Eleventy
         run: pnpm run build
 
+      # 案例工作台还没做完，暂不对外发布。
+      # 做好后删掉这一步，就会跟着上线。
+      - name: Skip unfinished drafts
+        run: rm -rf _site/archive
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:

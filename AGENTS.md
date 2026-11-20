@@ -113,6 +113,8 @@ src/
 
 工作台在 **`/archive/`**，数据在 `src/_data/archive.json`，图纸放 `public/archive/`。
 
+⚠️ **线上暂时没有这一页**：`deploy.yml` 里有一步 `rm -rf _site/archive`，构建后把它删掉。做好后删掉那一步就会跟着上线。本地 `pnpm run serve` 能看到 `/archive/`。
+
 **图纸不是收藏，是提炼标准的原料。** 每看一张，把"我看到了什么"写成判断，沉淀到这里——往后做设计时，这些判断就是你的标准。
 
 ### 已沉淀的判断

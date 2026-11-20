@@ -86,10 +86,11 @@
 
     var h = document.createElement("h3");
     h.textContent = it.title;
-    if (it.demo) {
+    var badgeText = it.demo ? "示例" : (it.draft ? "待填" : "");
+    if (badgeText) {
       var badge = document.createElement("span");
       badge.className = "aw-badge";
-      badge.textContent = "示例";
+      badge.textContent = badgeText;
       h.appendChild(badge);
     }
     card.appendChild(h);
@@ -115,7 +116,15 @@
       li.innerHTML = "<b>" + pair[1] + "</b><span>" + text + "</span>";
       ul.appendChild(li);
     });
-    card.appendChild(ul);
+
+    if (ul.children.length) {
+      card.appendChild(ul);
+    } else {
+      var hint = document.createElement("p");
+      hint.className = "aw-hint";
+      hint.textContent = "← 写下你看到的动线 / 结构 / 采光 / 尺度";
+      card.appendChild(hint);
+    }
 
     var pick = document.createElement("label");
     pick.className = "aw-pick";

@@ -700,6 +700,7 @@ body.lb-open .bar{display:none}
 .aw-card .en{display:block;margin-top:2px;font-family:var(--en);font-style:italic;font-size:12px;color:var(--accent-deep);opacity:.75}
 .aw-badge{font-family:var(--en);font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-40);border:1px solid var(--rule);padding:2px 5px;font-style:normal}
 .aw-src{margin:9px 0 0;font-size:11px;line-height:1.7;color:var(--ink-40)}
+.aw-hint{margin:11px 0 0;font-size:11.5px;line-height:1.8;color:var(--ink-40);opacity:.85}
 .aw-clues{list-style:none;margin:11px 0 0;padding:0;font-size:12.5px;line-height:1.85;color:var(--ink-70)}
 .aw-clues li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:5px 0;border-top:1px dotted var(--rule-soft)}
 .aw-clues b{font-weight:400;font-size:10.5px;color:var(--ink-40);letter-spacing:.08em}

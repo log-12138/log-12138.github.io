@@ -2,39 +2,79 @@
   "intro": "图纸不是收藏，是提炼标准的原料。每条记下出处，再写下你看到的动线、结构、采光、尺度。",
   "items": [
     {
-      "id": "demo-1",
-      "architect": "（示例）建筑师",
-      "title": "（示例）建筑名称",
-      "en": "Building name",
-      "year": 1972,
-      "place": "城市",
-      "source": "《书名》 p.12 ／ 期刊名 2020(3) ／ 事务所官网",
-      "drawingKind": "平面 1:200",
+      "id": "kahn-salk",
+      "architect": "路易斯·康",
+      "architectEn": "Louis Kahn",
+      "title": "索尔克生物研究所",
+      "en": "Salk Institute",
+      "year": 1965,
+      "place": "拉霍亚",
+      "source": "（待补：书名 + 页码 ／ 事务所官网）",
+      "drawingKind": "平面（待补）",
       "drawingSrc": "",
-      "demo": true,
+      "draft": true,
       "clues": {
-        "circulation": "人从哪里进、在哪转弯、在哪停",
-        "structure": "什么在承重，露出来还是藏起来",
-        "light": "光从哪进来，影子落在哪",
-        "scale": "抬头多高，走道多宽，身体什么感觉"
+        "circulation": "",
+        "structure": "",
+        "light": "",
+        "scale": ""
       }
     },
     {
-      "id": "demo-2",
-      "architect": "（示例）建筑师",
-      "title": "（示例）第二个房子",
-      "en": "Another house",
-      "year": 1989,
-      "place": "城市",
-      "source": "《书名》 p.34",
-      "drawingKind": "平面 + 剖面",
+      "id": "pei-suzhou",
+      "architect": "贝聿铭",
+      "architectEn": "I. M. Pei",
+      "title": "苏州博物馆",
+      "en": "Suzhou Museum",
+      "year": 2006,
+      "place": "苏州",
+      "source": "（待补：书名 + 页码 ／ 事务所官网）",
+      "drawingKind": "平面（待补）",
       "drawingSrc": "",
-      "demo": true,
+      "draft": true,
       "clues": {
-        "circulation": "（示例）换一种走法，对比着看",
-        "structure": "（示例）结构在这里变成了什么",
-        "light": "（示例）顶光和侧光的差别",
-        "scale": "（示例）哪一处让你觉得被压低了"
+        "circulation": "",
+        "structure": "",
+        "light": "",
+        "scale": ""
+      }
+    },
+    {
+      "id": "piano-pompidou",
+      "architect": "伦佐·皮亚诺",
+      "architectEn": "Renzo Piano",
+      "title": "蓬皮杜艺术中心",
+      "en": "Centre Pompidou",
+      "year": 1977,
+      "place": "巴黎",
+      "source": "（待补：书名 + 页码 ／ 事务所官网）",
+      "drawingKind": "平面（待补）",
+      "drawingSrc": "",
+      "draft": true,
+      "clues": {
+        "circulation": "",
+        "structure": "",
+        "light": "",
+        "scale": ""
+      }
+    },
+    {
+      "id": "koolhaas-seattle",
+      "architect": "雷姆·库哈斯",
+      "architectEn": "Rem Koolhaas",
+      "title": "西雅图中央图书馆",
+      "en": "Seattle Central Library",
+      "year": 2004,
+      "place": "西雅图",
+      "source": "（待补：书名 + 页码 ／ 事务所官网）",
+      "drawingKind": "平面（待补）",
+      "drawingSrc": "",
+      "draft": true,
+      "clues": {
+        "circulation": "",
+        "structure": "",
+        "light": "",
+        "scale": ""
       }
     }
   ]
