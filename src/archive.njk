@@ -1,0 +1,56 @@
+---
+layout: layouts/tool.njk
+title: 案例工作台
+en: Case workbench
+num: A
+desc: 图纸档案：建筑师、出处、动线结构采光尺度四类线索，可检索、可横向比较。
+---
+
+<p class="lead">{{ archive.intro }}</p>
+
+<div class="aw-bar">
+  <input class="aw-search" id="awSearch" type="search" placeholder="搜建筑师、建筑名、线索…" aria-label="搜索">
+  <select class="aw-select" id="awArch" aria-label="按建筑师筛选"><option value="">全部建筑师</option></select>
+  <select class="aw-select" id="awYear" aria-label="按年份筛选"><option value="">全部年代</option></select>
+  <span class="aw-count" id="awCount"></span>
+</div>
+
+<div class="aw-grid" id="awGrid"></div>
+
+<div class="aw-compare" id="awCompare">
+  <p class="aw-compare-head">
+    <span>横向比较</span>
+    <button class="aw-clear" type="button" id="awClear">清空选择</button>
+  </p>
+  <div id="awTable"></div>
+</div>
+
+<div class="aw-howto">
+  <h2>怎么加一条</h2>
+  <ol>
+    <li>把图纸放进 <code>public/archive/</code>（jpg / png 都行，长边 1600px 以上）</li>
+    <li>打开 <code>src/_data/archive.json</code>，复制一条改内容</li>
+    <li><code>drawingSrc</code> 填 <code>/archive/文件名.jpg</code>；没图就留空，卡片会显示虚线框</li>
+    <li>四条线索各写一句**你自己的观察**，不要抄导览词</li>
+  </ol>
+  <pre><code>{
+  "id": "kahn-salk",
+  "architect": "路易·康",
+  "title": "索尔克生物研究所",
+  "en": "Salk Institute",
+  "year": 1965,
+  "place": "拉霍亚",
+  "source": "《路易·康》p.88",
+  "drawingKind": "总平面 1:500",
+  "drawingSrc": "/archive/salk.jpg",
+  "clues": {
+    "circulation": "从停车场穿过建筑才到海，中轴把人推向地平线",
+    "structure": "两侧实验楼把服务塔推到外侧，中间让出一条空的轴线",
+    "light": "混凝土墙面对称反射，正午两道光带把广场切成三份",
+    "scale": "站在广场中央，抬头只有一条窄天，人被压成很矮"
+  }
+}</code></pre>
+</div>
+
+<script type="application/json" id="awData">{{ archive | json | safe }}</script>
+<script src="/assets/archive.js"></script>

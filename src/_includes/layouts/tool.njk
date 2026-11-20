@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }} · 罗子成</title>
+<meta name="description" content="{{ desc }}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23141414'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23f4f1ea' font-family='serif'%3E%E7%BD%97%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+{% include "partials/bar.njk" %}
+<main data-num="{{ num }}">
+  <div class="wrap">
+    <div class="page-head">
+      <span class="num">{{ num }}</span>
+      <h1>{{ title }}</h1>
+      <span class="en">{{ en }}</span>
+    </div>
+{{ content | safe }}
+  </div>
+</main>
+<footer class="pager">
+  <div class="pager-in">
+    <a class="prev" href="/"><span class="k">← 返回</span><strong>作品集首页</strong></a>
+    <a class="next" href="/works/"><span class="k">下一节 →</span><strong>精选作品</strong></a>
+  </div>
+  <div class="site-foot"><span>© 2026 罗子成</span><span>案例工作台 · 课程作业</span></div>
+</footer>
+{% include "partials/lightbox.njk" %}
+</body>
+</html>

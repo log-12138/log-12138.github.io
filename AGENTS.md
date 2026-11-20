@@ -56,8 +56,10 @@ src/
   experience.md          → 03 校内经历（8 条 + 照片弹层）
   awards.md              → 04 荣誉（列表 + 底部证书滚动条）
   contact.md             → 05 联系
-  _includes/layouts/     → base.njk（外壳）、project.njk（项目页）
+  _includes/layouts/     → base.njk（外壳）、project.njk（项目页）、tool.njk（工作台）
   _includes/partials/    → bar / pager / lightbox / experience-modal
+  _data/archive.json     → 案例工作台的图纸档案数据
+  archive.njk            → /archive/ 案例工作台（筛选 + 横向比较）
 
 .github/workflows/deploy.yml → push 即构建并发布
 ```
@@ -106,3 +108,22 @@ src/
 - 字体：标题 Noto Serif SC 700，正文 Noto Sans SC 400，拉丁小字 Georgia 斜体，编号 Consolas
 - 背景：水彩墨晕 `bg-wash.jpg`（32% 提亮）+ 88px 制图网格 + 纸纹噪声，全部 fixed
 - 强调块：`.about-grid / .proj-body / .desc-block` 是"浮起纸片"面板（近白底 + 极淡投影 + 左上赭石角标）
+
+## 10. 案例品味库（课程作业 02）
+
+工作台在 **`/archive/`**，数据在 `src/_data/archive.json`，图纸放 `public/archive/`。
+
+**图纸不是收藏，是提炼标准的原料。** 每看一张，把"我看到了什么"写成判断，沉淀到这里——往后做设计时，这些判断就是你的标准。
+
+### 已沉淀的判断
+
+> （还没开始。看完第一张后，在这一行下面写第一句。）
+
+- 待填 · 例：*我更在意「结构是否被看见」，而不是平面是否高效。*
+
+### 归档清单
+
+| 建筑师 | 建筑 | 年份 | 出处 | 一句话判断 |
+|---|---|---|---|---|
+| — | — | — | — | — |
+

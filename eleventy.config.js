@@ -6,6 +6,9 @@ export default function (eleventyConfig) {
   // public/ is served from the site root: /imgs, /assets, /<pdf>
   eleventyConfig.addPassthroughCopy({ "public": "/" });
 
+  // 数据转 JSON，供页面内嵌给前端脚本用
+  eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
+
   eleventyConfig.setServerOptions({
     port: 8080,
     showAllHosts: false,
