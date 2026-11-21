@@ -4,6 +4,11 @@ node_modules/
 # 构建产物（由 CI 或本地 pnpm run build 生成）
 _site/
 
+# 案例工作台的图纸：第三方版权图，只作个人研读
+# 放进公开仓库等于二次发布，所以不入库。
+# 需要备份就把这一行删掉（自己承担版权风险）。
+public/archive/
+
 # 系统/编辑器杂项
 .DS_Store
 Thumbs.db
