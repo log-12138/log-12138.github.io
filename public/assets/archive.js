@@ -86,7 +86,7 @@
 
     var h = document.createElement("h3");
     h.textContent = it.title;
-    var badgeText = it.demo ? "示例" : (it.draft ? "待填" : "");
+    var badgeText = it.demo ? "示例" : (it.draft ? "待填" : (it.ghost ? "AI 初稿" : ""));
     if (badgeText) {
       var badge = document.createElement("span");
       badge.className = "aw-badge";
