@@ -3,13 +3,13 @@ layout: layouts/base.njk
 title: "联系"
 docTitle: "联系 · 罗子成"
 en: "Contact"
-num: "05"
+num: "06"
 desc: "联系方式与作品集、简历 PDF 下载。"
 active: "contact"
 source: "素材来源：个人作品集与简历 · 内容未作改写"
 prev:
-  href: "/awards/"
-  label: "荣誉与证书"
+  href: "/archive/"
+  label: "案例工作台"
 next:
   href: "/"
   label: "回到封面"

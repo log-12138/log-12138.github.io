@@ -11,8 +11,8 @@ prev:
   href: "/experience/"
   label: "校内经历"
 next:
-  href: "/contact/"
-  label: "联系"
+  href: "/archive/"
+  label: "案例工作台"
 lightbox: true
 ---
 

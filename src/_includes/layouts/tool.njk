@@ -22,10 +22,10 @@
 </main>
 <footer class="pager">
   <div class="pager-in">
-    <a class="prev" href="/"><span class="k">← 返回</span><strong>作品集首页</strong></a>
-    <a class="next" href="/works/"><span class="k">下一节 →</span><strong>精选作品</strong></a>
+    {% if prev %}<a class="prev" href="{{ prev.href }}"><span class="k">← 上一节</span><strong>{{ prev.label }}</strong></a>{% else %}<span></span>{% endif %}
+    {% if next %}<a class="next" href="{{ next.href }}"><span class="k">下一节 →</span><strong>{{ next.label }}</strong></a>{% endif %}
   </div>
-  <div class="site-foot"><span>© 2026 罗子成</span><span>案例工作台 · 课程作业</span></div>
+  <div class="site-foot"><span>© 2026 罗子成 · 东南大学建筑学院</span><span>案例工作台 · 课程作业</span></div>
 </footer>
 {% include "partials/lightbox.njk" %}
 </body>
