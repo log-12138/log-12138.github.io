@@ -10,7 +10,7 @@
       "year": 1965,
       "place": "拉霍亚",
       "source": "有方《经典再读08｜萨尔克生物研究所》 archiposition.com/items/20181203105146",
-      "drawingKind": "平面 + 剖面（2 张）",
+      "drawingKind": "平面 + 剖面",
       "drawingSrc": "/archive/kahn-salk/01_plan.jpg",
       "ghost": true,
       "clues": {
@@ -21,22 +21,22 @@
       }
     },
     {
-      "id": "pei-suzhou",
+      "id": "pei-east-building",
       "architect": "贝聿铭",
       "architectEn": "I. M. Pei",
-      "title": "苏州博物馆",
-      "en": "Suzhou Museum",
-      "year": 2006,
-      "place": "苏州",
-      "source": "未找到可用图纸：有方／谷德只收录 gmp 的西馆；建筑学院那篇是照片",
-      "drawingKind": "（待补）",
-      "drawingSrc": "",
-      "draft": true,
+      "title": "国家美术馆东馆",
+      "en": "East Building, National Gallery of Art",
+      "year": 1978,
+      "place": "华盛顿",
+      "source": "有方《经典再读122｜国家美术馆东馆》 archiposition.com/items/e16aee66c9",
+      "drawingKind": "总平面 + 南立面 + 概念草图",
+      "drawingSrc": "/archive/pei-east-building/02.jpg",
+      "ghost": true,
       "clues": {
-        "circulation": "",
-        "structure": "",
-        "light": "",
-        "scale": ""
+        "circulation": "总平面上它是一块被大道斜切出来的三角形，尖端朝西正对老馆。两馆之间靠一个大广场和地下通道缝起来——人是从西边一路走过来，最后才进到三角形的尖里。",
+        "structure": "南立面上几乎全是实心大理石，只在中间切出一道深凹的玻璃竖缝。窗不是「开」在墙上的，是从体量里「切」出来的；体量的斜边就是它的结构。",
+        "light": "草图上专门画了一格标注 light control：屋面是一组天窗，靠层层格栅把光打散才落进中庭；四面墙基本不采光，光只从顶上下来。",
+        "scale": "中庭是一个被三角剖开的高空间。草图上写着 shaping down the geometry for light——屋顶的坡度是被光决定的，不是被结构决定的。"
       }
     },
     {
@@ -48,7 +48,7 @@
       "year": 1977,
       "place": "巴黎",
       "source": "有方《经典再读12｜蓬皮杜艺术中心》 archiposition.com/items/20190107102854",
-      "drawingKind": "北立面 + 结构分析 + 节点大样 + 轴测（4 张，缺平面）",
+      "drawingKind": "北立面 + 结构剖面 + 节点大样 + 轴测（缺平面）",
       "drawingSrc": "/archive/piano-pompidou/01_elevation.jpg",
       "ghost": true,
       "clues": {

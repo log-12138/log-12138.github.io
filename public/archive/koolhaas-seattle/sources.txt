@@ -1,0 +1,20 @@
+来源：https://www.archdaily.com/11651/seattle-central-library-oma-lmn
+
+文件	原始地址
+01_Book_Spiral_Diagram.jpg	https://images.adsttc.com/media/images/5721/879a/e58e/ce22/9200/000e/large_jpg/Book_Spiral_Diagram.jpg
+02_Elevation.jpg	https://images.adsttc.com/media/images/5721/8826/e58e/ce53/e100/000e/large_jpg/Elevation.jpg
+03_LEGIBILITY_SECTION.jpg	https://images.adsttc.com/media/images/5721/908f/e58e/ce9e/1700/0001/large_jpg/LEGIBILITY_SECTION.jpg
+04_Mixing_Chamber_Diagram_locus_of_info.jpg	https://images.adsttc.com/media/images/5721/90b2/e58e/ce9e/1700/0002/large_jpg/Mixing_Chamber_Diagram_locus_of_info.jpg
+05_Mixing_Chamber_Diagram_search_time.jpg	https://images.adsttc.com/media/images/5721/90e5/e58e/ce94/3800/0001/large_jpg/Mixing_Chamber_Diagram_search_time.jpg
+06_PLATFORMS_diagram.jpg	https://images.adsttc.com/media/images/5721/910f/e58e/ce94/3800/0003/large_jpg/PLATFORMS_diagram.jpg
+07_Seattle_(in)Stability_Diagram.jpg	https://images.adsttc.com/media/images/5721/9524/e58e/ce40/8a00/0001/large_jpg/Seattle_(in)Stability_Diagram.jpg
+08_Seattle_Program_Diagram.jpg	https://images.adsttc.com/media/images/5721/9542/e58e/ce40/8a00/0002/large_jpg/Seattle_Program_Diagram.jpg
+09_pln-02acad.jpg	https://images.adsttc.com/media/images/5721/9129/e58e/ce94/3800/0004/large_jpg/pln-02acad.jpg
+10_pln-04graphics.jpg	https://images.adsttc.com/media/images/5721/9168/e58e/ce94/3800/0006/large_jpg/pln-04graphics.jpg
+11_pln-05graphics.jpg	https://images.adsttc.com/media/images/5721/9188/e58e/ce94/3800/0007/large_jpg/pln-05graphics.jpg
+12_pln-06graphics.jpg	https://images.adsttc.com/media/images/5721/9203/e58e/ce94/3800/0009/large_jpg/pln-06graphics.jpg
+13_pln-08graphics.jpg	https://images.adsttc.com/media/images/5721/91de/e58e/ce94/3800/0008/large_jpg/pln-08graphics.jpg
+14_pln-10graphics.jpg	https://images.adsttc.com/media/images/5721/9427/e58e/ce45/2800/0005/large_jpg/pln-10graphics.jpg
+15_pln-11graphics.jpg	https://images.adsttc.com/media/images/5721/944a/e58e/ce45/2800/0006/large_jpg/pln-11graphics.jpg
+16_10.jpg	https://images.adsttc.com/media/images/5721/87ed/e58e/ce22/9200/0011/large_jpg/10.jpg
+17_11.jpg	https://images.adsttc.com/media/images/5721/87d9/e58e/ce22/9200/0010/large_jpg/11.jpg
