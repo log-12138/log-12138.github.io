@@ -12,7 +12,6 @@
       "source": "有方《经典再读08｜萨尔克生物研究所》 archiposition.com/items/20181203105146",
       "drawingKind": "平面 + 剖面",
       "drawingSrc": "/archive/kahn-salk/01_plan.jpg",
-      "ghost": true,
       "clues": {
         "circulation": "两列实验楼夹出一条窄长中庭，人从一端进、另一端正对海。这条走廊不是穿过去用的，是让人走完的——尽头没有门，只有一条水渠和地平线。",
         "structure": "平面的柱网规整等距，剖面上楼板由整排桁架托住；楼梯和管井被推到两列楼的外侧，所以实验室里看不见管井，只剩柱和光。",
@@ -28,10 +27,9 @@
       "en": "East Building, National Gallery of Art",
       "year": 1978,
       "place": "华盛顿",
-      "source": "有方《经典再读122｜国家美术馆东馆》 archiposition.com/items/e16aee66c9",
-      "drawingKind": "总平面 + 南立面 + 概念草图",
-      "drawingSrc": "/archive/pei-east-building/02.jpg",
-      "ghost": true,
+      "source": "有方《经典再读122｜国家美术馆东馆》 archiposition.com/items/e16aee66c9；平面图另见知乎 @Uzing",
+      "drawingKind": "入口层/下层平面 + 总平面 + 南立面 + 概念草图",
+      "drawingSrc": "/archive/pei-east-building/06_plans_entry_lower.jpg",
       "clues": {
         "circulation": "总平面上它是一块被大道斜切出来的三角形，尖端朝西正对老馆。两馆之间靠一个大广场和地下通道缝起来——人是从西边一路走过来，最后才进到三角形的尖里。",
         "structure": "南立面上几乎全是实心大理石，只在中间切出一道深凹的玻璃竖缝。窗不是「开」在墙上的，是从体量里「切」出来的；体量的斜边就是它的结构。",
@@ -50,7 +48,6 @@
       "source": "有方《经典再读12｜蓬皮杜艺术中心》 archiposition.com/items/20190107102854",
       "drawingKind": "北立面 + 结构剖面 + 节点大样 + 轴测（缺平面）",
       "drawingSrc": "/archive/piano-pompidou/01_elevation.jpg",
-      "ghost": true,
       "clues": {
         "circulation": "爆炸轴测把 CIRCULATION 单独抽成一层：自动扶梯和电梯整组挂在西立面外，人的移动和外墙是同一层皮。所以室内可以是连续的一整层，没有走廊。",
         "structure": "柱子全在立面以外，靠格贝尔悬臂梁（Gerberettes）把楼板挑出来。柱子只受压、不抗弯，跨度交给外侧的桁架——换来的是室内一根柱都没有。",
@@ -69,7 +66,6 @@
       "source": "ArchDaily《Seattle Central Library / OMA + LMN》 archdaily.com/11651",
       "drawingKind": "6 张平面 + 立面 + 剖面 + 5 张分析图",
       "drawingSrc": "/archive/koolhaas-seattle/09_pln-02acad.jpg",
-      "ghost": true,
       "clues": {
         "circulation": "书按 000 到 999 排成一条连续螺旋，读者沿着同一条坡道走完整个分类，不用换层重新找入口。垂直交通被甩到一侧，和书的螺旋彻底分开。",
         "structure": "平面上的柱子很疏、间距很大，靠外圈的钢结构把楼板挑住；几层平台彼此错位，柱子不上下对齐，所以地面永远是方的，楼板是歪的。",
