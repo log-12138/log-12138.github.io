@@ -6,7 +6,7 @@
 
 ## 1. 这是什么
 
-罗子成（东南大学建筑学院）的**个人作品集网站**，2026 年求职用。中文为主 + 英文小标签，黑白水墨纸感，11 个页面。
+罗子成（东南大学建筑学院）的**个人作品集网站**，2026 年求职用。中文为主 + 英文小标签，黑白水墨纸感，12 个页面（含案例工作台）。
 
 - 线上：<https://log-12138.github.io/>
 - 仓库：<https://github.com/log-12138/log-12138.github.io>
@@ -55,11 +55,11 @@ src/
   other.md               → 02.5 其他作品
   experience.md          → 03 校内经历（8 条 + 照片弹层）
   awards.md              → 04 荣誉（列表 + 底部证书滚动条）
-  contact.md             → 05 联系
+  archive.njk            → 05 案例工作台（/archive/，筛选 + 横向比较）
+  contact.md             → 06 联系
   _includes/layouts/     → base.njk（外壳）、project.njk（项目页）、tool.njk（工作台）
   _includes/partials/    → bar / pager / lightbox / experience-modal
   _data/archive.json     → 案例工作台的图纸档案数据
-  archive.njk            → /archive/ 案例工作台（筛选 + 横向比较）
 
 .github/workflows/deploy.yml → push 即构建并发布
 ```
