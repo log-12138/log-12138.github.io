@@ -43,7 +43,7 @@ lightbox: true
 <li>计算机 python 与 MS office 二级证书</li>
 <li>口语普通话二级乙等</li>
 <li>教师资格证笔试合格</li>
-<li>三星志愿者 · 校内志愿时长 270+ 小时</li>
+<li>三星志愿者 · 校内志愿时长 275 小时</li>
 </ul>
 </div>
 </div>

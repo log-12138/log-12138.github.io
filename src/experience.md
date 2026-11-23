@@ -60,7 +60,7 @@ extraPartial: "experience-modal"
 <li class="exp-item"><button class="exp-btn" type="button" data-group="g6">
 <span class="yr">2025</span>
 <span class="org">志愿服务 · 三星志愿者</span>
-<span class="role">累计 265 小时</span>
+<span class="role">累计 275 小时</span>
 <span class="exp-thumbs"><img src="/imgs/exp/vol-01.jpg" alt="浙江省高校招生公益巡回咨询会（金华专场）· 东南大学展位" loading="lazy"><img src="/imgs/exp/vol-02.jpg" alt="高校招生宣传咨询现场" loading="lazy"><img src="/imgs/exp/vol-03.jpg" alt="回访宣讲 · 讲台" loading="lazy"></span>
 <span class="exp-more">4 张照片</span>
 <span class="exp-note">参与各类志愿 30 余次、7 个方向；担任 2025 年回访宣讲浙江省金华市学生负责人；获评优秀迎新服务志愿者。</span>

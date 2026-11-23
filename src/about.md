@@ -28,8 +28,8 @@ next:
 <dt>年龄</dt><dd>21 岁</dd>
 <dt>籍贯</dt><dd>浙江省金华市</dd>
 <dt>学校</dt><dd>东南大学</dd>
-<dt>学历</dt><dd>建筑学大三本科</dd>
-<dt>政治面貌</dt><dd>预备党员</dd>
+<dt>学历</dt><dd>建筑学大四本科</dd>
+<dt>政治面貌</dt><dd>中共党员</dd>
 <dt>求职意向</dt><dd>建筑设计实习生</dd>
 </dl>
 </div>
